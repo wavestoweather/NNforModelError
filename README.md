@@ -26,8 +26,8 @@ We use a concolutional neural network (CNN) to learn model error caused by unres
 - twinRun.py: Runs a low resolution simulation, with and without CNN correction.
   command line arguments: int s, int r, int e, string name, float weight
   
-int s: seed number for the realization of the orography
-int r: The model time step of LR1 from which the forecasts are started
-int e: The epoch corresponding to the CNN
-string name: The name of the CNN
+int s: seed number for the realization of the orography \
+int r: The model time step of LR1 from which the forecasts are started \
+int e: The epoch corresponding to the CNN \
+string name: The name of the CNN \
 float weight: the mass conservation constraint weighting
