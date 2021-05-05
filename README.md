@@ -10,7 +10,7 @@ We use a concolutional neural network (CNN) to learn model error caused by unres
 - LR1.py: Coarse grains HR (LR1).
   command line arguments: int s 
 - config_LR1.py: Settings for LR1.
-- LR2.py: Propogates each time step of LR1 one time step forward in time with the low resolution model (LR2).
+- LR2.py: Propogates each time step of LR1 one time step forward with the low resolution model (LR2).
   command line arguments: int s 
 - config_LR2.py: Settings for LR2.
 - training_data.py: Generates the training data set from LR1 and LR2.
