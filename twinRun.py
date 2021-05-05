@@ -70,7 +70,7 @@ path = TR.output_dir+'/weight'+str(sys.argv[4])+'/epoch'+str(sys.argv[3])
 if not os.path.exists(path):
     os.makedirs(path)
 
-shift = int(sys.argv[2])*144*2  # in hours
+shift = int(sys.argv[2])
 member = t.getMemberName(sys.argv[1])
 
 output_name = '/' + member
