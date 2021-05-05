@@ -4,7 +4,7 @@ This is the code corresponding to Kriegmair et al, 2021
 We use a concolutional neural network (CNN) to learn model error caused by unresolved scales. We the modified rotating shallow water (modRSW) model bu Kent etal, 2017 which includes highly nonlinearprocesses mimicking atmospheric convection. To create the training dataset we run the model in a high and a low resolution setup and compare the difference after one low resolution time step starting from the same initial conditions, thereby obtaining an exact target.
 
 *Creating the training data*
-- HR.py: Produces a the high resolution simulation (HR), which is assumed to be the true evolution of the atmosphere. 
+- HR.py: Produces a the high resolution simulation (HR). 
   command line arguments: int s
 - config_HR.py: Settings for HR.
 - LR1.py: Coarse grains HR (LR1).
