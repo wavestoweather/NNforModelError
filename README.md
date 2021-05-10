@@ -33,4 +33,4 @@ string name: The name of the CNN \
 float weight: the mass conservation constraint weighting
 
 *references*
-Thomas Kent, Onno Bokhove & Steven Tobias (2017) Dynamics of an idealized fluid model for investigating convective-scale data assimilation, Tellus A: Dynamic Meteorology and Oceanography, 69:1, DOI: 10.1080/16000870.2017.1369332
+- Thomas Kent, Onno Bokhove & Steven Tobias (2017) Dynamics of an idealized fluid model for investigating convective-scale data assimilation, Tellus A: Dynamic Meteorology and Oceanography, 69:1, DOI: 10.1080/16000870.2017.1369332
