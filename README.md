@@ -1,7 +1,7 @@
 # NNforModelError
-This is the code corresponding to Kriegmair et al, 2021
+This is the code corresponding to Kriegmair et al, 2021. The code is based on the source code used by Kent et al (2017) and was modified by Raphael Kriegmair.  
 
-We use a concolutional neural network (CNN) to learn model error caused by unresolved scales. We the modified rotating shallow water (modRSW) model bu Kent etal, 2017 which includes highly nonlinearprocesses mimicking atmospheric convection. To create the training dataset we run the model in a high and a low resolution setup and compare the difference after one low resolution time step starting from the same initial conditions, thereby obtaining an exact target.
+We use a concolutional neural network (CNN) to learn model error caused by unresolved scales. We use the modified rotating shallow water (modRSW) model bu Kent etal, 2017 which includes highly nonlinearprocesses mimicking atmospheric convection. To create the training dataset we run the model in a high and a low resolution setup and compare the difference after one low resolution time step starting from the same initial conditions, thereby obtaining an exact target.
 
 *Creating the training data*
 - HR.py: Produces a the high resolution simulation (HR). 
@@ -31,3 +31,6 @@ int r: The model time step of LR1 from which the forecasts are started \
 int e: The epoch corresponding to the CNN \
 string name: The name of the CNN \
 float weight: the mass conservation constraint weighting
+
+*references*
+Thomas Kent, Onno Bokhove & Steven Tobias (2017) Dynamics of an idealized fluid model for investigating convective-scale data assimilation, Tellus A: Dynamic Meteorology and Oceanography, 69:1, DOI: 10.1080/16000870.2017.1369332
